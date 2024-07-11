@@ -7,6 +7,7 @@ style.css
 .container {
   width: 1440px;
   margin: 0 auto;
+  font-family: Azeret Mono;
   
 }
 
@@ -287,8 +288,6 @@ text-align: center;
 
 background: rgba(255, 76, 30, 0.05);
 }
-.footer-img{
-  
-}
+
 
 
