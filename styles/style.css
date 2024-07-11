@@ -1,0 +1,229 @@
+style.css
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Azeret Mono", monospace;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 166px;
+}
+
+header button {
+  
+
+}
+
+#hero {
+  width: 1440px;
+  height: 652px;
+  background-image: url("/assets/Hero-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+#hero .hero-content {
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 26px 221px 44px 221px;
+}
+
+#hero h1 {
+  margin-top: 150px;
+  font-size: 48px;
+}
+#hero p {
+  padding: 0 50px;
+}
+#hero .button button {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  color: white;
+  background: rgb(13, 19, 33);
+}
+
+.cards {
+}
+
+.cards .card {
+  width: 946px;
+  height: 336px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.cards .card .card-left {
+  width: 70%;
+}
+.cards .card .card-right {
+  width: 30%;
+}
+.cards .card .card-right img {
+  position: relative;
+  right: -500px;
+}
+
+.web{
+    width: 1140px;
+height: 1395px;
+margin: 0 auto;
+}
+
+.web .web-cont{
+ padding: 90px;
+}
+.web .web-cont h1 , p{
+text-align: center;
+align-items: center;
+}
+.web .web-cont  p{
+color: gray;
+}
+
+.web .web-cards{
+  width: 946px;
+padding: 48px;
+}
+.web .web-cards .card{
+  width: 946px;
+height: 336px;
+display: flex;
+justify-content: space-between;
+
+border-radius: 16px;
+
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.web-cards .card .card-l{
+  width: 60%;
+  margin-right: 110px;
+}
+.web-cards .card .card-l h1{
+  color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.web-cards .card .card-l p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.web-cards .card .card-l button{
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.web-cards .card .card-l h1 , p {
+  text-align: start;
+}
+.web-cards .card .card-r{
+  width: 40%;
+}
+
+.ins{
+  width: 1140px;
+height: 777px;
+margin: 0 auto;
+}
+
+.ins .ins-cont{
+  align-items: center;
+  text-align: center;
+}
+.ins .ins-cont p{
+ padding: 30px 60px;
+}
+
+.ins-video{
+  padding: 32px;
+  width: 1076px;
+height: 550px;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+}
+.ins-video iframe{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
+
+.support {
+  width: 1140px;
+height: 314px;
+margin: 0 auto;
+background-image: url(".//assets/handshake.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.support-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 64px 48px;
+  color: white;
+  background: linear-gradient(0deg,rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.438)100%);
+}
+.support-cont input{
+  width: 548px;
+height: 57px;
+border-radius: 20px;
+}
+.support-cont button{
+  padding: 20px 30px 20px 30px;
+  border-radius: 20px;
+}
+
+footer{
+
+height: 100px;
+padding: 32px 150px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+
+footer h1{
+  font-size: 20px;
+}
+
+.footer-img {
+  margin-right: 10px;
+  padding: 0 10px;
+}
+
+
+
